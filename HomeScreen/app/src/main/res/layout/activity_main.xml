@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.deewanshigrover.homescreen.MainActivity">
+
+       <ScrollView
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="vertical">
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Hola hola"
+           android:textSize="25sp"
+           android:textAlignment="center"
+           android:layout_marginTop="20dp"/>
+       <ImageView
+           android:layout_width="200dp"
+           android:layout_height="200dp"
+           android:layout_gravity="center"
+           android:layout_marginTop="20dp"
+           android:src="@drawable/mypic"
+           android:background="@mipmap/ic_launcher"
+           />
+       <EditText
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:hint="Edit me"
+           android:layout_marginTop="20dp"
+           android:textSize="25sp"/>
+       <EditText
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:hint="Edit me again"
+           android:layout_marginTop="20dp"
+           android:textSize="25sp"/>
+       <EditText
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:hint="Edit me once more"
+           android:layout_marginTop="20dp"
+           android:textSize="25sp"/>
+       <EditText
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:hint="Once again Please"
+           android:layout_marginTop="20dp"
+           android:textSize="25sp"/>
+       <EditText
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:hint="Last edit"
+           android:layout_marginTop="20dp"
+           android:textSize="25sp"/>
+       <EditText
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:hint="Edit it last"
+           android:layout_marginTop="20dp"
+           android:textSize="25sp"/>
+       </LinearLayout>
+
+       </ScrollView>
+
+</LinearLayout>

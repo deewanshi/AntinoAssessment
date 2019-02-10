@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.deewanshigrover.sqlcrud.MainActivity">
+
+   <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/identity"
+       android:inputType="text"
+       android:hint="Unique ID"/>
+   <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/roll"
+       android:inputType="text"
+       android:hint="Roll Number"/>
+   <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/name"
+       android:inputType="text"
+       android:hint="Name"/>
+   <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/surname"
+       android:inputType="text"
+       android:hint="Surname"/>
+   <Button
+       android:id="@+id/btn_sv"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Save"/>
+   <Button
+       android:id="@+id/btn_rd"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Read"/>
+   <Button
+       android:id="@+id/btn_upd"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Update"/>
+   <Button
+       android:id="@+id/btn_del"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Delete"/>
+
+</LinearLayout>

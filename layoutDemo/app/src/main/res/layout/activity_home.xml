@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/mypic"
+    tools:context="com.example.deewanshigrover.layoutdemo.Home">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:background="@color/colorAccent"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="140dp">
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="@color/mycolor"
+            android:layout_width="match_parent"
+            android:layout_height="70dp">
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="@drawable/mypic"
+            />
+
+    </FrameLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TableRow>
+            <TextView
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:textColor="#ffffff"
+                android:text="First Name"
+                />
+            <EditText
+                android:inputType="textPersonName"
+                android:textColorHint="#ffffff"
+                android:hint="Enter a username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:textColor="#ffffff"
+                android:text="Last Name"
+                />
+            <EditText
+                android:inputType="textPersonName"
+                android:textColorHint="#ffffff"
+                android:hint="Enter a lastname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:textColor="#ffffff"
+                android:text="Mobile Number"
+                />
+            <EditText
+                android:inputType="phone"
+                android:textColorHint="#ffffff"
+                android:hint="Enter a mobile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:textColor="#ffffff"
+                android:text="Address"
+                />
+            <EditText
+                android:inputType="textPostalAddress"
+                android:textColorHint="#ffffff"
+                android:hint="Enter a address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+        </TableRow>
+
+    </TableLayout>
+    <Button
+        android:id="@+id/btnsub"
+        android:text="Submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

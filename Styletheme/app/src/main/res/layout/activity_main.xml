@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.deewanshigrover.styletheme.MainActivity">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal">
+
+     <TextView
+         style="@style/Mystyle"
+         android:id="@+id/tv1"
+         android:layout_weight="1"
+         android:text="Name"/>
+
+       <TextView
+           style="@style/Mystyle"
+           android:id="@+id/tv2"
+           android:text="Deewanshi"
+           android:layout_weight="1"/>
+
+   </LinearLayout>
+
+</LinearLayout>

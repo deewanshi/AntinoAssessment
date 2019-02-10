@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            <TextView
+                android:text="First Name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                />
+            <EditText
+                android:layout_marginLeft="10dp"
+                android:hint="Enter first name"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+
+                />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+
+            <TextView
+                android:text="Last Name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                />
+
+            <EditText
+                android:layout_marginLeft="10dp"
+                android:hint="Enter last name"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+
+                />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+
+            <TextView
+                android:text="Phone number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                />
+
+            <EditText
+                android:layout_marginLeft="10dp"
+                android:hint="Enter mobile"
+                android:inputType="phone"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+
+            <TextView
+                android:text="Qualifiction"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                />
+
+           <Spinner
+               android:layout_height="wrap_content"
+               android:layout_width="100dp">
+
+           </Spinner>
+
+        </TableRow>
+
+
+    </TableLayout>
+
+
+</LinearLayout>
