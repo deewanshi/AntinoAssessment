@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "6896402939",
+    "firebase_url": "https://trybla.firebaseio.com",
+    "project_id": "trybla",
+    "storage_bucket": "trybla.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:6896402939:android:b930d8c6798da6ab",
+        "android_client_info": {
+          "package_name": "com.example.trybla"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "6896402939-v65qn4l2i7rmgvg9gdvbs4rq1faa8e35.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.trybla",
+            "certificate_hash": "1522c559ebc732f26a62b839900a473bf246d65a"
+          }
+        },
+        {
+          "client_id": "6896402939-cao5l1n6mlaghfrer5mgcq6nh5q8clq8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASQorQ8FFlcv9rQ2t4fI1Q9Zzh4LgM6Ew"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "6896402939-cao5l1n6mlaghfrer5mgcq6nh5q8clq8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
